@@ -1,6 +1,7 @@
 module github.com/go-pkgz/auth
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	github.com/dghubble/oauth1 v0.7.3
@@ -11,7 +12,7 @@ require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/rrivera/identicon v0.0.0-20240116195454-d5ba35832c0d
 	github.com/stretchr/testify v1.9.0
-	go.etcd.io/bbolt v1.3.10
+	go.etcd.io/bbolt v1.3.11
 	go.mongodb.org/mongo-driver v1.16.0
 	golang.org/x/image v0.18.0
 	golang.org/x/oauth2 v0.21.0
