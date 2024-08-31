@@ -52,12 +52,12 @@ jobs:
           ENABLE_MONGO_TESTS: "true"
 
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v4
+        uses: golangci/golangci-lint-action@v6
         with:
           version: latest
 
       - name: golangci-lint on example directory
-        uses: golangci/golangci-lint-action@v4
+        uses: golangci/golangci-lint-action@v6
         with:
           version: latest
           args: --config ../.golangci.yml
