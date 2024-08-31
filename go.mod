@@ -12,7 +12,7 @@ require (
 	github.com/rrivera/identicon v0.0.0-20240116195454-d5ba35832c0d
 	github.com/stretchr/testify v1.9.0
 	go.etcd.io/bbolt v1.3.10
-	go.mongodb.org/mongo-driver v1.16.0
+	go.mongodb.org/mongo-driver v1.16.1
 	golang.org/x/image v0.18.0
 	golang.org/x/oauth2 v0.21.0
 )
