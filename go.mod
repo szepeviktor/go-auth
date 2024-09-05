@@ -14,7 +14,7 @@ require (
 	go.etcd.io/bbolt v1.3.10
 	go.mongodb.org/mongo-driver v1.16.0
 	golang.org/x/image v0.18.0
-	golang.org/x/oauth2 v0.21.0
+	golang.org/x/oauth2 v0.23.0
 )
 
 require (
